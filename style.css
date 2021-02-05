@@ -1,0 +1,86 @@
+@media screen and (min-width: 500px) and (max-width: 575px)
+{
+  .center{
+    height:60vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-sm-10{
+    text-align:center; background-color:rgba(255, 255, 255, 0.753);
+  }
+        
+  .card{
+    width: 25rem;
+  }
+
+  .gmap{
+    width: 100%;
+    height: 100%;
+  }
+  .map{
+    width: 500;
+    height: 900;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px)
+{
+  .center{
+    height:60vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg{
+    background-image:url('image/background.jpg');
+    background-color: rgb(224,224,224);
+    background-attachment: fixed;
+  }
+
+  .col-sm-10{
+    text-align:center; background-color:rgba(255, 255, 255, 0.753);
+  }
+  .gmap{
+    width: 100%;
+    height: 100%;
+  }
+  .map{
+    width: 576;
+    height: 900;
+  }
+}
+
+@media screen and (min-width: 992px)
+{
+.center{
+    height:60vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bg{
+    background-image:url('image/background.jpg');
+    background-color: rgb(224,224,224);
+    background-attachment: fixed;
+    
+  }
+  .col-sm-10{
+    text-align:center; background-color:rgba(255, 255, 255, 0.753);
+  }
+  .gmap{
+    width: 100%;
+    height: 100%;
+  }
+  .map{
+    width: 992;
+    height: 900;
+  }
+}
+
